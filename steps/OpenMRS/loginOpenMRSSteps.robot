@@ -1,6 +1,6 @@
 *** Settings ***
 Library         SeleniumLibrary
-Resource        ../variables/OpenMRSVariables.robot
+Resource        ../../variables/OpenMRSVariables.robot
 
 
 *** Keywords ***

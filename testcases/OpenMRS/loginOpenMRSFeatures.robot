@@ -1,6 +1,6 @@
 *** Settings ***
 Library         SeleniumLibrary
-Resource        ../steps/loginOpenMRSSteps.robot
+Resource        ../../steps/OpenMRS/loginOpenMRSSteps.robot
 
 
 *** Test Cases ***
