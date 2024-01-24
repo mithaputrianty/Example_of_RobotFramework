@@ -6,7 +6,7 @@ Resource        ../variables/OpenMRSVariables.robot
 *** Keywords ***
 # Code dengan comment # adalah basic code
 # Code dengan comment ## adalah code dengan data diambil dari variables
-# Code dengan comment ### adalah code dengan element dan data diambil dari variables
+# Code yang tidak di comment adalah code dengan element dan data diambil dari variables
 
 User access Open MRS website
     # Open Browser    https://demo.openmrs.org/openmrs/login.htm  Chrome
