@@ -1,3 +1,5 @@
+#Author: putriantyf@gmail.com
+
 *** Settings ***
 Library         SeleniumLibrary
 Resource        ../../variables/OpenMRSVariables.robot

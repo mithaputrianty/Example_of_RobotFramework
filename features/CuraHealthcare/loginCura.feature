@@ -1,3 +1,5 @@
+#Author: putriantyf@gmail.com
+
 Feature: Login
 
 Scenario: Login using valid credential
@@ -6,13 +8,14 @@ Scenario: Login using valid credential
 	And User click Login button on Cura Login page
 	Then User redirect to Appointment page
 
-Scenario Outline: Login using valid credential
+Scenario Outline: Login using invalid credential
     Given User access Cura Healthcare website
 	When User enter invalid data <username> and <password>
 	And User click Login button on Cura Login page
 	Then User expect to see error message on Login page
 
-    Examples: 
-      | username | password |
-      | JohnDoe	|	ThisIsNotAPassword |
-      | John Doe | ThisIsPassword |
+	Examples: 
+		| username | password |
+		| JohnDoe	|	ThisIsNotAPassword |
+		| John Doe | ThisIsPassword |
+# bagaimana cara scripting untuk Scenario Outline

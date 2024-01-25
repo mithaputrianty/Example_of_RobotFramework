@@ -1,3 +1,5 @@
+#Author: putriantyf@gmail.com
+
 *** Settings ***
 Library         SeleniumLibrary
 Resource        ../../steps/OpenMRS/loginOpenMRSSteps.robot

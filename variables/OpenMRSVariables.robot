@@ -1,3 +1,5 @@
+#Author: putriantyf@gmail.com
+
 *** Variables ***
 
 #Global variable for OpenMRS Website
